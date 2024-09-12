@@ -107,7 +107,7 @@ const ImagePosterApp = () => {
   return (
     <div style={{ margin: '20px' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={`${process.env.PUBLIC_URL}/logo512.png`} width='40px' height='40px' />
+        <img src={`${process.env.PUBLIC_URL}/logo512.png`} width='40px' height='40px' alt="Karma"/>
         <h1 style={{ marginLeft: '10px' }}>Poster Maker</h1>
       </div>
 
